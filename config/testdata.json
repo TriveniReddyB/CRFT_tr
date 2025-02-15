@@ -1,0 +1,13 @@
+{
+    "TC001": {
+      "key1": "abc",
+      "key2": "xyz"
+    },
+    "TC002": {
+      "key1": "abc",
+      "key2": "xyz",
+      "key3": "[3, 5, 9]",
+      "input_key": "radio_btn_name"
+    }
+  }
+  

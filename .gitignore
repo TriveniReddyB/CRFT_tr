@@ -10,3 +10,6 @@ __pycache__/
 output.xml
 log.html
 report.html
+
+# Ignore Playwright logs. these are environment-specific:
+playwright-log.txt

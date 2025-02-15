@@ -1,0 +1,19 @@
+# Poetry configuration file
+[tool.poetry]
+name = "cgbrproject1"
+version = "0.1.0"
+description = ""
+authors = ["trbika"]
+readme = "README.md"
+#requires-python = ">=3.12"
+include = ["src/"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+robotframework-browser = "^19.3.1"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
