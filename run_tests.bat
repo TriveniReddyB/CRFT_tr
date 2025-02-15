@@ -9,7 +9,7 @@ echo Running robot tests calling batch script...een ogenblik geduld!!!
 REM Run Robot Framework tests.Create a folder named "results" if it does not exist. if not exist results mkdir results
 @REM robot --outputdir ./reports src/sampletest.robot
 
-:: Approach 2
+:: Approach 2 [current in use]
 REM This setup is perfect for maintaining a history of reports while keeping everything organized. Now, you can easily track changes and compare results across different test runs.
 set "timestamp=%date:~-4%%date:~3,2%%date:~0,2%_%time:~0,2%%time:~3,2%%time:~6,2%"
 robot --outputdir ./reports --output output_%timestamp%.xml --report report_%timestamp%.html --log log_%timestamp%.html src/sampletest.robot
